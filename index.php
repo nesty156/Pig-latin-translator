@@ -1,7 +1,8 @@
 <?php
     declare(strict_types = 1);
-    include 'includes/translator.inc.php';
+    include 'includes/autoloader.inc.php';
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
