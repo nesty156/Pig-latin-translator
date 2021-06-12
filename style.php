@@ -4,6 +4,11 @@ header("Content-type: text/css");
 $font_family = 'Arial, Helvetica, sans-serif';
 ?>
 
+form {
+    width: 100%;
+    height: 100%;
+}
+
 textarea {
     width: 90%;
     border: 2px solid black;
