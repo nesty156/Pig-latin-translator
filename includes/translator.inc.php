@@ -4,8 +4,8 @@
 
     if ($_SERVER["REQUEST_METHOD"] == "GET") {
         if(!empty($_GET["text"])){
-            $word = new Word($_GET["text"]);
-            echo $word->getPigLatin();
+            $text = new Text($_GET["text"]);
+            echo $text->getTranslatedText();
         }
     }
 ?>
