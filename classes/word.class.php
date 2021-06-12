@@ -43,10 +43,13 @@ class Word {
             }
         }
         if(empty($consonant)){
-            $result = implode($chars) . "yay";
+            $result = implode($chars) . "'" . "yay";
+        }
+        else if(empty($chars)){
+            $result = implode($consonant) . "ay";
         }
         else{
-            $result = implode($chars) . implode($consonant) . "ay";
+            $result = implode($chars) . "-" . implode($consonant) . "ay";
         }
         return $result;
     }
